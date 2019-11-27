@@ -1,0 +1,42 @@
+// Styling for the contact section
+section#contact {
+
+
+  .form-group {
+    margin-bottom: 10px;
+    input,
+    textarea {
+
+    }
+    input.form-control {
+      height: auto;
+    }
+    textarea.form-control {
+      height: 150px;
+    }
+  }
+  .form-control:focus {
+    border-color: $primary;
+    box-shadow: none;
+  }
+  ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  ::-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-ms-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+}

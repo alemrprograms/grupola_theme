@@ -1,0 +1,63 @@
+#barra_contato_superior{
+	position: absolute;
+	z-index: 5000;
+}
+
+
+span.numero_fundo {
+    font-size: 104px;
+    @include heading-dark;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 40%;
+     z-index: 1;
+   
+}
+
+
+.numero_topo {
+    position: relative;
+     z-index: 2;
+}
+
+.numero_fundo {
+     z-index: 1;
+}
+
+.font_dark{
+    color: #efefef;
+}
+.font_light{
+    color: #ffffff;
+}
+.bg_dark{
+    background-color: #ededed;
+}
+.bg_light{
+    background-color: #ffffff;
+}
+
+.text_z_index{
+    z-index: 500 !important;
+    position: relative;
+}
+
+.destaque{
+    font-weight: 900;
+}
+
+.bg-azul{
+    background-color: $primary;
+}
+
+.linha_topo{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.fa-icon-side{
+    float: left;
+}

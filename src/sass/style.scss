@@ -1,0 +1,27 @@
+@import "vendor/bootstrap/css/bootstrap.min.scss";
+@import "vendor/fontawesome-free/css/all.min.scss";
+@import "vendor/google-font/font-montserrat-400-700.scss";
+@import "vendor/google-font/font-kaushan-script.scss";
+@import "vendor/google-font/font-droid-serif-400-700-400-italic-700-italic.scss";
+@import "vendor/google-font/font-roboto-slab-400-100-300-700.scss";
+@import "vendor/google-font/font-ultra-400.scss";
+// Core variables and mixins
+@import "base/variables.scss";
+@import "base/mixins.scss";
+
+// Global CSS
+@import "base/page.scss";
+
+// Components
+@import "components/buttons.scss";
+@import "components/navbar.scss";
+
+// Layout
+@import "layout/masthead.scss";
+@import "layout/services.scss";
+@import "layout/portfolio.scss";
+@import "layout/timeline.scss";
+@import "layout/team.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";
+@import "grupo_la.scss";
