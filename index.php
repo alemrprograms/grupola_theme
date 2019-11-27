@@ -84,30 +84,54 @@
     <div class="row text-center ">
 
       <div class="col-md-4">
+        <div class="row">
+            <div class="col-2">
+                <i class="fas fa-award fa-stack-1x fa-icon-side"></i>
+            </div>
 
-        <h4 class="service-heading">
-          <i class="fas fa-award fa-stack-1x fa-icon-side"></i>
-
-        Ética</h4>
-        <p class="text-muted text-left linha_topo">Nosso trabalho se desenvolve com base em valores sólidos e inalteráveis.</p>
+            <div class="col-10">
+              <h4 class="text-left">
+                Ética
+              </h4>                  
+              <p class="text-muted text-left linha_topo">
+                Nosso trabalho se desenvolve com base em valores sólidos e inalteráveis.
+              </p>
+            </div>
+        </div>
       </div>
 
       <div class="col-md-4">
+        <div class="row">
+            <div class="col-2">
+                <i class="fas fa-clipboard-list fa-stack-1x fa-icon-side"></i>
+            </div>
 
-        <h4 class="service-heading">
-          <i class="fas fa-clipboard-list fa-stack-1x fa-icon-side"></i>
-
-        Transparência</h4>
-        <p class="text-muted text-left linha_topo">Prezamos pela transparência de nossas relações comerciais perante nossos clientes. Assim, forjamos uma grande e duradoura parceria.</p>
+            <div class="col-10">
+              <h4 class="text-left">
+                Transparência
+              </h4>                 
+              <p class="text-muted text-left linha_topo">
+                Prezamos pela transparência de nossas relações comerciais perante nossos clientes. Assim, forjamos uma grande e duradoura parceria.
+              </p>              
+            </div>
+        </div>
       </div>
 
       <div class="col-md-4">
+        <div class="row">
+            <div class="col-2">
+                <i class="fas fa-calendar-check fa-stack-1x fa-icon-side"></i>
+            </div>
 
-        <h4 class="service-heading">
-          <i class="fas fa-calendar-check fa-stack-1x fa-icon-side"></i>
-
-        Comprometimento</h4>
-        <p class="text-muted text-left linha_topo">Estamos 100% comprometidos com a redução dos altos índeces de inadimplência e, consequentemente, aumento do fluxo de caixa.</p>
+            <div class="col-10">
+              <h4 class="text-left">
+                Comprometimento
+              </h4>                 
+              <p class="text-muted text-left linha_topo">
+                Estamos 100% comprometidos com a redução dos altos índeces de inadimplência e, consequentemente, aumento do fluxo de caixa.
+              </p>              
+            </div>
+        </div>
       </div>
 
     </div>
