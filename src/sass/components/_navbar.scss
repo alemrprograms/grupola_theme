@@ -33,6 +33,7 @@
         &.active,
         &:hover {
           color: $primary;
+          background-color: lighten($primary, 65%);
         }
       }
     }

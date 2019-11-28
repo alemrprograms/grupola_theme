@@ -11,7 +11,7 @@
   <div class="col-4 d-inline">
     <a href="">
       <i class="fas fa-phone-alt"></i>
-    11 3451-4512</a> 
+    +55 11 3696-7911</a> 
   </div>
   <div class="col-4 d-inline float-right text-right">
 
@@ -85,7 +85,7 @@
 
       <div class="col-md-4">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 icon-bem-vindo">
                 <i class="fas fa-award fa-stack-1x fa-icon-side"></i>
             </div>
 
@@ -102,7 +102,7 @@
 
       <div class="col-md-4">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 icon-bem-vindo">
                 <i class="fas fa-clipboard-list fa-stack-1x fa-icon-side"></i>
             </div>
 
@@ -119,7 +119,7 @@
 
       <div class="col-md-4">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 icon-bem-vindo">
                 <i class="fas fa-calendar-check fa-stack-1x fa-icon-side"></i>
             </div>
 
@@ -149,7 +149,7 @@
         <span class="font_light numero_fundo">02</span>
       </div>
 
-      <div class="col-lg-12 text-center ">
+      <div class="col-12 col-md-8 text-justify ">
         <h3 class="section-subheading text-muted text_z_index">Somos uma empresa séria e comprometida na gestão de recebíveis. Focamos 100% na busca pela redução dos altos índices de inadimplência dos nossos clientes, por meio de negociações efetivas que beneficiem ambas as partes (devedor e credor), objetivando, desse modo, a continuidade das relações comerciais entre as partes.</h3>
       </div>
 
