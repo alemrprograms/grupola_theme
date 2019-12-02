@@ -3,25 +3,27 @@
 <!-- Navigation -->
 
 <div class="container p-1 linha_topo">
-  <div class="col-4 d-inline">
+<div class="row">
+  <div class="col-12 col-md-4 d-inline">
     <a href="">
       <i class="far fa-envelope"></i>
     contato@grupola.com.br</a> 
   </div>
-  <div class="col-4 d-inline">
+  <div class="col-8 col-md-4 d-inline">
     <a href="">
       <i class="fas fa-phone-alt"></i>
     +55 11 3696-7911</a> 
   </div>
-  <div class="col-4 d-inline float-right text-right">
+  <div class="col-4 col-md-4 d-inline float-right text-right">
 
     <a href=""><i class="fab fa-facebook-square"></i></a> 
     <a href=""><i class="fab fa-instagram"></i></a> 
     <a href=""><i class="fab fa-twitter-square"></i></a> 
   </div>
+  </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light pb-0" id="mainNav">
 
 
   <div class="container">
@@ -85,7 +87,7 @@
 
       <div class="col-md-4">
         <div class="row">
-            <div class="col-2 icon-bem-vindo">
+            <div class="col-2 text-center icon-bem-vindo">
                 <i class="fas fa-award fa-stack-1x fa-icon-side"></i>
             </div>
 
@@ -102,7 +104,7 @@
 
       <div class="col-md-4">
         <div class="row">
-            <div class="col-2 icon-bem-vindo">
+            <div class="col-2 text-center icon-bem-vindo">
                 <i class="fas fa-clipboard-list fa-stack-1x fa-icon-side"></i>
             </div>
 
@@ -119,7 +121,7 @@
 
       <div class="col-md-4">
         <div class="row">
-            <div class="col-2 icon-bem-vindo">
+            <div class="col-2 text-center icon-bem-vindo">
                 <i class="fas fa-calendar-check fa-stack-1x fa-icon-side"></i>
             </div>
 
@@ -142,7 +144,7 @@
 <!-- Portfolio Grid -->
 <section class="bg_dark page-section" id="portfolio">
   <div class="container">
-    <div class="row">
+    <div class="row d-flex justify-content-center">
 
       <div class="col-lg-12 text-center mb-5">
         <h2 class="section-heading text-uppercase numero_topo">CONHEÇA O GRUPO L.A COBRANÇAS</h2>
@@ -158,7 +160,7 @@
       <div class="col-12 col-md-6">
 
 
-<nav>
+<nav class="">
   <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
 <p class="m-0"><i class="fas fa-user"></i></p>
@@ -174,7 +176,7 @@
     </a>
   </div>
 </nav>
-<div class="tab-content" id="nav-tabContent">
+<div class="tab-content p-3 bg-white pb-4" id="nav-tabContent">
   <div class="tab-pane fade text-justify show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 Buscamos efetividade e resultados nos acordos amigáveis que celebrados entre nossos clientes (credores) e seus devedores.
   </div>
@@ -213,22 +215,22 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
 
     </div>
 
-    <div class="row text-primary">
+    <div class="row text-primary texto_servico">
       <div class="col-12 col-md-3 text-center">
         <p><i class="fas fa-graduation-cap"></i></p>
-        A) MENSALIDADES EDUCACIONAIS;
+        <span>A) MENSALIDADES EDUCACIONAIS;</span>
       </div>
       <div class="col-12 col-md-3 text-center">
         <p><i class="fas fa-money-bill-wave"></i></p>
-        B) CHEQUES;
+        <span>B) CHEQUES;</span>
       </div>
       <div class="col-12 col-md-3 text-center">
         <p><i class="fas fa-home"></i></p>
-        C) CONDOMÍNIOS;
+       <span> C) CONDOMÍNIOS;</span>
       </div>
       <div class="col-12 col-md-3 text-center">
         <p><i class="fas fa-globe"></i></p>
-        D) RELAÇÕES COMERCIAIS EM GERAL.
+       <span> D) RELAÇÕES COMERCIAIS EM GERAL.</span>
       </div>
     </div>
 
@@ -244,7 +246,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
         <img src="<?php echo get_template_directory_uri(). '/dist/images/601x393.png' ?>" alt=""> 
       </div>
 
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 pl-5">
 
         <div class="row ">
 
@@ -260,21 +262,49 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
 
         <div class="row text-primary">
 
-          <div class="col-6 p-3 pt-0 text-justify">
-            <i class="fas fa-check-square pr-2"></i>
+          <div class="col-12 col-md-6 pl-4 pr-4 pb-4 pt-0 text-justify ">
+            <div class="row">
+              <div class="col-1">
+                <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
+              </div>
+              <div class="col-10 ml-2 text-black">
+                
             REDUÇÃO DE CUSTOS OPERACIONAIS.
+              </div>
+            </div>
           </div>
-          <div class="col-6 p-3 pt-0 text-justify">
-            <i class="fas fa-check-square pr-2"></i>
+          <div class="col-12 col-md-6 pl-4 pr-4 pb-4 pt-0 text-justify ">
+            <div class="row">
+              <div class="col-1">
+                <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
+              </div>
+              <div class="col-10 ml-2 text-black">
+                
             FOCO NO CORE BUSINESS DO NEGÓCIO
+              </div>
+            </div>
           </div>
-          <div class="col-6 p-3 pt-0 text-justify">
-            <i class="fas fa-check-square pr-2"></i>
+          <div class="col-12 col-md-6 pl-4 pr-4 pb-4 pt-0 text-justify ">
+            <div class="row">
+              <div class="col-1">
+                <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
+              </div>
+              <div class="col-10 ml-2 text-black">
+                
             CONTE COM PROFISSIONAIS PREPARADOS E DEDICADOS COM A SUA EMPRESA.
+              </div>
+            </div>
           </div>
-          <div class="col-6 p-3 pt-0 text-justify">
-            <i class="fas fa-check-square pr-2"></i>
+          <div class="col-12 col-md-6 pl-4 pr-4 pb-4 pt-0 text-justify ">
+            <div class="row">
+              <div class="col-1">
+                <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
+              </div>
+              <div class="col-10 ml-2 text-black">
+                
             RECONDUZA E OTIMIZE SEUS RECURSOS PARA OUTRAS ATIVIDADES VITAIS DO SEU NEGÓCIO.
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -298,7 +328,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
 
     <div class="row">
 
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 p-5">
         <i class="fas fa-map-marker-alt"></i>
         <p class="destaque">
           ENDEREÇO 
@@ -308,7 +338,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
         </a>
       </div>
 
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 p-5">
         <i class="fas fa-phone-alt"></i>
         <p class="destaque">
           TELEFONE 
@@ -318,7 +348,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
         </a>  
       </div>
 
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 p-5">
         <i class="fab fa-whatsapp-square"></i>
         <p class="destaque">
           WHATSAPP 
@@ -328,7 +358,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
         </a>
       </div>
 
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 p-5">
         <i class="fas fa-envelope"></i>
         <p class="destaque">
           EMAIL 
@@ -338,11 +368,11 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
         </a>
       </div>
 
-      <div class="col-12">
+      <div class="col-12 col-md-6">
         <h5>Mande-nos uma mensagem</h5>
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="form-group">
                 <input class="form-control" id="name" type="text" placeholder="Seu nome *" required="required" data-validation-required-message="Por favor coloque aqui seu nome.">
                 <p class="help-block text-danger"></p>
@@ -356,7 +386,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
                 <p class="help-block text-danger"></p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
               <div class="form-group">
                 <textarea class="form-control" id="message" placeholder="Sua mensagem *" required="required" data-validation-required-message="Por favor coloque aqui sua mensagem."></textarea>
                 <p class="help-block text-danger"></p>
@@ -370,7 +400,8 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
           </div>
         </form>
       </div>
-      <div class="col-12">
+      <div class="col-12 col-md-6">
+      <h5>Localização</h5>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.059823029113!2d-46.719413185384674!3d-23.530350666332055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef88ff402cb5d%3A0x44d313a1bd80e0b2!2sR.%20dos%20Aliados%2C%20835%20-%20Alto%20da%20Lapa%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002675-031!5e0!3m2!1spt-BR!2sbr!4v1573045534127!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       </div>
     </div>

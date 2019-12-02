@@ -65,4 +65,18 @@ span.numero_fundo {
     border-bottom: 3px solid black;
     width: 25px;
     padding-bottom: 5px;
+    position: relative;
+}
+
+.texto_servico{
+    font-size: 2rem;
+    line-height: 0.5;
+    span{
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+.icon_terceirizacao{
+    font-size: 2rem;
 }
