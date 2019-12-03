@@ -4,17 +4,17 @@
 
 <div class="container p-1 linha_topo">
 <div class="row">
-  <div class="col-12 col-md-4 d-inline">
+  <div class="col-12 col-md-3 d-inline">
     <a href="">
       <i class="far fa-envelope"></i>
     contato@grupola.com.br</a> 
   </div>
-  <div class="col-8 col-md-4 d-inline">
+  <div class="col-8 col-md-3 d-inline">
     <a href="">
       <i class="fas fa-phone-alt"></i>
     +55 11 3696-7911</a> 
   </div>
-  <div class="col-4 col-md-4 d-inline float-right text-right">
+  <div class="col-4 col-md-6 d-inline float-right text-right">
 
     <a href=""><i class="fab fa-facebook-square"></i></a> 
     <a href=""><i class="fab fa-instagram"></i></a> 
@@ -267,7 +267,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
               <div class="col-1">
                 <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
               </div>
-              <div class="col-10 ml-2 text-black">
+              <div class="col-9 ml-2 text-black">
                 
             REDUÇÃO DE CUSTOS OPERACIONAIS.
               </div>
@@ -278,7 +278,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
               <div class="col-1">
                 <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
               </div>
-              <div class="col-10 ml-2 text-black">
+              <div class="col-9 ml-2 text-black">
                 
             FOCO NO CORE BUSINESS DO NEGÓCIO
               </div>
@@ -289,7 +289,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
               <div class="col-1">
                 <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
               </div>
-              <div class="col-10 ml-2 text-black">
+              <div class="col-9 ml-2 text-black">
                 
             CONTE COM PROFISSIONAIS PREPARADOS E DEDICADOS COM A SUA EMPRESA.
               </div>
@@ -300,7 +300,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
               <div class="col-1">
                 <i class="fas fa-check-square pr-2 icon_terceirizacao"></i>
               </div>
-              <div class="col-10 ml-2 text-black">
+              <div class="col-9 ml-2 text-black">
                 
             RECONDUZA E OTIMIZE SEUS RECURSOS PARA OUTRAS ATIVIDADES VITAIS DO SEU NEGÓCIO.
               </div>
