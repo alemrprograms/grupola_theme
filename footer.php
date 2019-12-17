@@ -15,7 +15,7 @@
             </ul>
           </div>
           <div class="col-4">
-            <img src="<?php echo get_template_directory_uri(). '/dist/images/logo-grupo-la-branco.png' ?>"  >
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(). '/dist/images/logo-grupo-la-branco.png' ?>"  >
           </div>
           <div class="col-4"></div>
         </div>

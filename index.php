@@ -28,7 +28,7 @@
 
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <img src="<?php echo get_template_directory_uri(). '/dist/images/logo-grupo-la-extendido.png' ?>" height="45" >
+      <img src="<?php echo get_template_directory_uri(). '/dist/images/logo-grupo-la-extendido.png' ?>" height="30" >
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
@@ -193,7 +193,7 @@ Acreditamos que um bom relacionamento com nossos clientes, deve ser pautado em t
 
       </div>
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_template_directory_uri(). '/dist/images/601x393.png' ?>" alt="">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(). '/dist/images/601x393.png' ?>" alt="">
       </div>
     </div>
   </div>
