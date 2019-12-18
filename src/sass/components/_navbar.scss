@@ -6,9 +6,9 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: gray;
     border: 0;
-    background-color: $primary;
+    background-color: white;
     @include heading-font;
   }
   .navbar-brand {

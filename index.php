@@ -2,33 +2,36 @@
 <?php get_header(); ?>
 <!-- Navigation -->
 
-<div class="container p-1 linha_topo">
-<div class="row">
-  <div class="col-12 col-md-3 d-inline">
-    <a href="">
-      <i class="far fa-envelope"></i>
-    contato@grupola.com.br</a> 
-  </div>
-  <div class="col-8 col-md-3 d-inline">
-    <a href="">
-      <i class="fas fa-phone-alt"></i>
-    +55 11 3696-7911</a> 
-  </div>
-  <div class="col-4 col-md-6 d-inline float-right text-right">
+<div class="container-fluid linha_topo">
+  <div class="row">
+    <div class="col-3 d-inline">
+      <a href="">
+        <i class="far fa-envelope"></i>
+      <span class="d-none d-sm-inline-block"> 
+        contato@grupola.com.br
+        </span>
+      </a> 
+    </div>
+    <div class="col-6 d-inline text-center">
+      <a href="">
+        <i class="fas fa-phone-alt"></i>
+      +55 11 3696-7911</a> 
+    </div>
+    <div class="col-3 d-inline float-right text-right">
 
-    <a href=""><i class="fab fa-facebook-square"></i></a> 
-    <a href=""><i class="fab fa-instagram"></i></a> 
-    <a href=""><i class="fab fa-twitter-square"></i></a> 
-  </div>
-  </div>
+      <a href=""><i class="fab fa-facebook-square"></i></a> 
+      <a href=""><i class="fab fa-instagram"></i></a> 
+      <a href=""><i class="fab fa-twitter-square"></i></a> 
+    </div>
+    </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light pb-0" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-0" id="mainNav">
 
 
-  <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <img src="<?php echo get_template_directory_uri(). '/dist/images/logo-grupo-la-extendido.png' ?>" height="30" >
+  <div class="container-fluid">
+    <a class="navbar-brand js-scroll-trigger m-0 p-0" href="#page-top">
+      <img src="<?php echo get_template_directory_uri(). '/dist/images/logo-grupo-la-extendido.png' ?>" height="35" >
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
